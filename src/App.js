@@ -4,7 +4,7 @@ function App() {
     return (
         <>
             <section>
-                <div className="md:container mx-auto my-10">
+                <div className="mx-auto my-10 max-w-xl">
                     <Faq />
                 </div>
             </section>

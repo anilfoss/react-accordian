@@ -5,6 +5,8 @@ const Accordian = ({ title, body }) => {
 
     const refHeight = useRef(null);
 
+    // console.log(refHeight.current);
+
     const handleAccordian = () => {
         setAccordianOpen(!accordianOpen);
 
